@@ -1,4 +1,5 @@
 /* Layout */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -6,11 +7,19 @@
 
 /* Component */
 .header {
-    background-color: orange;
+    background-color: #070c18;
 }
 
 .main {
     background-color: pink;
+}
+
+.header .killingeve-img {
+    height: 660px;
+    background-image: url(../img/killing-eve.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .movie-intro {
