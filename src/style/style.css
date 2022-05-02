@@ -124,3 +124,30 @@ body {
     margin-left: -20px;
 }
 
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+
+    /* .header .container {
+        padding: 0;
+    } */
+
+    .main {
+        padding-bottom: 20px;
+    }
+
+    .movie-intro {
+        row-gap: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-desc, .movie-info {
+        width: 100%;
+    }
+
+
+.movie-info_list .info-genre a:last-child {
+    margin-top: 0;
+}
+}
