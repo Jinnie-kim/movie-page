@@ -5,8 +5,10 @@ body {
 }
 
 .container {
+    box-sizing: border-box;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* Component */
@@ -15,7 +17,8 @@ body {
 }
 
 .main {
-    background-color: pink;
+    padding-bottom: 85px;
+    background-color: #100f17;
 }
 
 .header .killingeve-img {
@@ -26,9 +29,10 @@ body {
         rgba(20, 20, 20, 0.25) 25%,
         rgba(20, 20, 20, 0.5) 50%,
         rgba(20, 20, 20, 0.75) 75%,
-        rgba(20, 20, 20, 0.95) 100% 
+        rgba(20, 20, 20, 1) 100% 
     ), url(../img/killingeve-img.jpeg);
     background-size: cover;
+    background-position: center;
 }
 
 .movie-intro {
@@ -38,16 +42,32 @@ body {
 }
 
 .movie-desc {
-    width: 50%;
-    background-color: cornflowerblue;
+    width: 70%;
+    margin-top: -200px;
+}
+
+.movie-desc strong {
+    display: inline-block;
+    padding: 3px 6px 3px 10px;
+    margin-bottom: 25px;
+    letter-spacing: 5px;
+    color: black;
+    background-color: #afa382;
+    border-right: 3px solid #918669;
+    border-bottom: 3px solid #918669;    
 }
 
 .movie-desc img {
-    width: 250px;
+    width: 180px;
+    margin-bottom: 40px;
+}
+
+.movie-desc p {
+    color: #ffffff;
 }
 
 .movie-info {
-    width: 50%;
+    width: 30%;
     background-color: cornsilk;
 }
 
