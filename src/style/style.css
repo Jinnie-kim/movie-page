@@ -65,13 +65,17 @@ body {
     margin-bottom: 40px;
 }
 
-.movie-desc p {
-    color: #ffffff;
+.movie-desc .movie-synopsis {
+    color: #faf6eb;
+}
+
+.movie-desc .movie-synopsis p + p {
+    margin-top: 10px;
 }
 
 .movie-info {
     width: 30%;
-    color: #ffffff;
+    color: #faf6eb;
 }
 
 .movie-info_list {
